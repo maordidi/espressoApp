@@ -22,7 +22,9 @@ const Capsule = ({name,color,id,numOfCapsules,disabled_,navigation }) => {
                 <FlatButton 
                     disabledStyle={Style.CapsuleEnabledStyle}
                     disabled={disabled_} 
-                    onPress={()=>navigation.navigate('EditPage')}
+                    onPress={()=>navigation.navigate('EditPage',{
+                        id:id,name:name,color:color,numOfCapsules:numOfCapsules
+                    })}
                     Style={Style.container}>
                     {renderBars()}
                 </FlatButton>

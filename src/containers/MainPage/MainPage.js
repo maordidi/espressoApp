@@ -37,7 +37,7 @@ class MainPage extends React.Component{
                         disabled_={this.state.flagEdit}
                         navigation={this.props.navigation}
                     /> }
-                keyExtractor={item =>item.id.toString()}
+                keyExtractor={item =>item.id}
             />
             <View>
                 <FlatButton 
