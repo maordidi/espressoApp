@@ -5,6 +5,7 @@ export const en = {
     name:'Name',
     color:'color',
     numOfCapsules:'number of cupsule in the tank',
+    saveButtonText:'Save',
 
 
 

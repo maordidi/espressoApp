@@ -2,10 +2,18 @@ import { StyleSheet } from 'react-native';
 
 
 export default StyleSheet.create({
-    container:{
-        // justifyContent:'left',
+    arrow:{
+        
         alignItems:'flex-end',
-        flex:1, 
+        // flex:1, 
+
+    },
+    SubContiner:{
+        top: 150,
+         justifyContent:'center',
+        alignItems:'center',
+       
+        
 
     },
     ReturnButtonStyle:{
@@ -23,4 +31,20 @@ export default StyleSheet.create({
         {rotate: '-90deg'}
         ]
     },
+    SaveButtonStyle:{
+        backgroundColor:'#db9653',
+        borderRadius:50,
+        height:90,
+        width:90,
+        borderColor:'black',
+        borderWidth:3,
+        justifyContent:'center',
+        alignItems:'center',
+
+
+    },
+    SaveButtonTextStyle:{
+        fontFamily:'lucida grande',
+        fontSize: 20,
+    }
 });
