@@ -1,0 +1,17 @@
+{
+  "name": "nesprsso-app",
+  "displayName": "nesprsso-app",
+  "expo": {
+    "name": "nesprsso-app",
+    "slug": "nesprsso-app",
+    "version": "1.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
