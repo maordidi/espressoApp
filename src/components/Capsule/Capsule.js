@@ -1,7 +1,11 @@
 import React from 'react';
 import { View, Text } from 'react-native';
 import  Style  from './CapsuleStyle';
+<<<<<<< HEAD
 import  FlatButton  from '../FlatButton';
+=======
+import { FlatButton } from '../../components';
+>>>>>>> 0127fa1d14a7b006e6aa857d2337dd14f1734ae4
 
 const Capsule = ({name,color,id,numOfCapsules,disabled_,navigation }) => { 
 

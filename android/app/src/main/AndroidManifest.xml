@@ -26,7 +26,10 @@
     <!-- END OPTIONAL PERMISSIONS -->
 
     <application
+<<<<<<< HEAD
       android:usesCleartextTraffic="true"
+=======
+>>>>>>> 0127fa1d14a7b006e6aa857d2337dd14f1734ae4
       android:name=".MainApplication"
       android:label="@string/app_name"
       android:icon="@mipmap/ic_launcher"
